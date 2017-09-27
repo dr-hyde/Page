@@ -1,3 +1,7 @@
+body{
+	padding-top: 7.9425%;
+}
+
 footer{
 	background-color: #333;
 	color: #ddd;
@@ -5,19 +9,55 @@ footer{
 	text-align: center;
 }
 
-li{
-	padding: 30px;
+.back-img{
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar{
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.navbar li{
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.navbar img{
+	width: 20%;
+	height: auto;
+	padding: 10px;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.navbar button{
+	margin: 10px;
+}
+
+.cbp-af-header-shrink img{
+	width: 10%;
+	height: auto;
+}
+
+.cbp-af-header-shrink li{
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.cbp-af-header-shrink{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	opacity: .8;
 }
 
 aside{
 	background-color: #f7f7f7;
 	text-align: center;
-	padding-top: 50 px;
-}
-
-.cat-list{
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .cat-list img{
@@ -27,7 +67,12 @@ aside{
 	max-height: auto;
 }
 
-h3, .cat-list h5, .rand-list h5, top-row h5{
+h3{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.cat-list h5, .rand-list h5, top-row h5{
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
@@ -44,10 +89,6 @@ article img{
 	margin-top: 10px;
 }
 
-.rand-list{
-	padding-bottom: 50px;
-}
-
 .rand-list img{
 	width: 100%;
 	height: auto;
@@ -58,8 +99,6 @@ article img{
 .top-row{
 	background-color: #f7f7f7;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
 .top-row img{
@@ -69,7 +108,7 @@ article img{
 	max-height: auto;
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
 	.cat-list h5{
 		display: inline;
 		margin-left: 25px;
@@ -100,5 +139,19 @@ article img{
 	.cat-list{
 		padding-top: 15px;
 		padding-bottom: 15px;
+	}
+
+	.top-row{
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.navbar img{
+		width: 50%;
+		height: auto;
+	}
+
+	body{
+		padding-top: 20%;
 	}
 }
